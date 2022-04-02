@@ -1,0 +1,74 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .bg {
+    background-image: url("imgs/img.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+li{
+list-style: None;
+}
+a{
+    text-decoration: none;
+}
+
+.music{
+    position: absolute;
+    z-index: 15;
+    top: 35%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+.music ul{
+    margin: 10% 14%;
+    width: 5vw;
+}
+.music ul li {
+    margin-top: 5%;
+    width: 7vw;
+    padding: 5.5%;
+    border-radius: 11%;
+    background-color: #ebceec;
+}
+.btn{
+    padding: 1vh 2vh;
+    margin-right: 17%;
+    background-color: darkcyan;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2vw;
+
+}
+.btn1{
+    margin-right: 6%;
+    margin-top: 8%;
+    padding: 1vh 2vh;
+    background-color: darkcyan;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2vw;
+}
+
+.btn:hover{
+    color:#a5cfda; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.btn1:hover{
+    color:#a5cfda; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.close{
+    font-size: 3vh;
+    margin-left: 20%;
+}
