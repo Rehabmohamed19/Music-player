@@ -1,4 +1,4 @@
-# UI Responsive Site
+# Music Player website
 
 <b>The project contain langing page contain a music player</b>
 
